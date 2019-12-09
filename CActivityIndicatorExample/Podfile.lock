@@ -1,0 +1,16 @@
+PODS:
+  - CActivityIndicator (1.0.0)
+
+DEPENDENCIES:
+  - CActivityIndicator (from `../CActivityIndicator/`)
+
+EXTERNAL SOURCES:
+  CActivityIndicator:
+    :path: "../CActivityIndicator/"
+
+SPEC CHECKSUMS:
+  CActivityIndicator: 75176f48e33660f01041118a4cd7be3669c1dcd3
+
+PODFILE CHECKSUM: 2a56cb46d5df05f6fa162743e76c8c68a064a18d
+
+COCOAPODS: 1.8.4

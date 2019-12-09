@@ -1,0 +1,6 @@
+framework module CActivityIndicator {
+  umbrella header "CActivityIndicator-umbrella.h"
+
+  export *
+  module * { export * }
+}
