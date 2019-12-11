@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D01C8BED23A0B0B4007A7D42 /* CActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C75A8E239A15860072036D /* CActivityIndicator.swift */; };
 		D0C75A88239A137C0072036D /* CActivityIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = D0C75A86239A137C0072036D /* CActivityIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D0C75A8F239A15860072036D /* CActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C75A8E239A15860072036D /* CActivityIndicator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D0C75A83239A137C0072036D /* CActivityIndicator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CActivityIndicator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0C75A86239A137C0072036D /* CActivityIndicator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CActivityIndicator.h; sourceTree = "<group>"; };
-		D0C75A87239A137C0072036D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D0C75A8E239A15860072036D /* CActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CActivityIndicator.swift; sourceTree = "<group>"; };
+		D0C75A86239A137C0072036D /* CActivityIndicator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CActivityIndicator.h; path = ../Sources/CActivityIndicator/CActivityIndicator.h; sourceTree = "<group>"; };
+		D0C75A87239A137C0072036D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = Sources/CActivityIndicator/Info.plist; sourceTree = "<group>"; };
+		D0C75A8E239A15860072036D /* CActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CActivityIndicator.swift; path = ../Sources/CActivityIndicator/CActivityIndicator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +29,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D01C8BEC23A0AED3007A7D42 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		D0C75A79239A137B0072036D = {
 			isa = PBXGroup;
 			children = (
@@ -48,9 +55,10 @@
 		D0C75A85239A137C0072036D /* CActivityIndicator */ = {
 			isa = PBXGroup;
 			children = (
+				D01C8BEC23A0AED3007A7D42 /* Sources */,
+				D0C75A87239A137C0072036D /* Info.plist */,
 				D0C75A86239A137C0072036D /* CActivityIndicator.h */,
 				D0C75A8E239A15860072036D /* CActivityIndicator.swift */,
-				D0C75A87239A137C0072036D /* Info.plist */,
 			);
 			path = CActivityIndicator;
 			sourceTree = "<group>";
@@ -135,7 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0C75A8F239A15860072036D /* CActivityIndicator.swift in Sources */,
+				D01C8BED23A0B0B4007A7D42 /* CActivityIndicator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +280,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = CActivityIndicator/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/CActivityIndicator/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -300,7 +308,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = CActivityIndicator/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/CActivityIndicator/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
